@@ -1,0 +1,51 @@
+*{box-sizing:border-box}:root{--ugm-blue:#0B457F;--ugm-yellow:#FFD42B;--ink:#1d2430;--paper:#f5f7fa;--line:#dfe7ee;--muted:#596b7a}
+body{margin:0;background:#fff;color:var(--ink);font:16px/1.7 "Avenir Next","Segoe UI",Arial,sans-serif}
+a{color:var(--ugm-blue);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+.top{background:var(--ugm-blue);color:#fff;padding:10px 0;font:12px/1.5 "Avenir Next","Segoe UI",Arial,sans-serif}
+.top .wrap{display:flex;justify-content:space-between;gap:12px}
+.top a{color:#fff;font-weight:700}
+.masthead{display:flex;align-items:center;gap:18px;padding:26px 0}
+.brand{display:flex;align-items:center;gap:14px;color:var(--ink);text-decoration:none}
+.brand strong{display:inline-flex;align-items:center;justify-content:center;width:88px;height:48px;background:var(--ugm-blue);color:#fff;font:700 28px/1 "Avenir Next","Segoe UI",Arial,sans-serif;letter-spacing:2px}
+.brand span{display:block;font-size:17px;font-weight:700}
+.affiliation{margin-left:auto;text-align:right;color:var(--muted);font:12px/1.6 "Avenir Next","Segoe UI",Arial,sans-serif}
+nav{background:#fff;border-top:1px solid var(--line);border-bottom:3px solid var(--ugm-yellow)}
+nav .wrap{display:flex;flex-wrap:wrap}
+nav a{padding:14px 18px;font:700 13px "Avenir Next","Segoe UI",Arial,sans-serif;color:#24313d;text-decoration:none}
+nav a:hover,nav a[aria-current]{background:var(--paper);color:var(--ugm-blue)}
+.page-title{background:linear-gradient(180deg,#f7f9fb 0%,#eef4f8 100%);border-bottom:1px solid var(--line)}
+.crumb{padding-top:18px;font:12px/1.5 "Avenir Next","Segoe UI",Arial,sans-serif;color:var(--muted)}
+.page-title h1{font-size:clamp(2.3rem,4vw,3.5rem);line-height:1.08;margin:12px 0 6px;letter-spacing:-.04em;color:var(--ugm-blue)}
+.lead{margin:0 0 24px;max-width:760px;color:var(--muted)}
+main{padding:36px 0 64px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:46px}
+.banner{margin:0 0 30px;background:var(--paper);border:1px solid var(--line)}
+.banner img{width:100%;height:360px;object-fit:cover}
+.banner figcaption,.photo figcaption{font:12px/1.5 "Avenir Next","Segoe UI",Arial,sans-serif;padding:12px 14px;color:var(--muted);background:#fbfcfd}
+h2{font:700 28px/1.25 "Avenir Next","Segoe UI",Arial,sans-serif;color:var(--ugm-blue);margin:0 0 12px}
+h3{font:700 20px/1.3 "Avenir Next","Segoe UI",Arial,sans-serif;color:#1d2a35;margin:0 0 8px}
+.article p,.article li,.sidebar p{color:#2d3945}
+.topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:22px 0}
+.topics>div{background:var(--paper);border:1px solid var(--line);padding:18px}
+.topics a{font:700 18px/1.25 "Avenir Next","Segoe UI",Arial,sans-serif;color:var(--ugm-blue)}
+.topics p{margin:10px 0 0}
+.button,.btn{display:inline-block;background:var(--ugm-blue);color:#fff;padding:12px 20px;font:700 14px/1.2 "Avenir Next","Segoe UI",Arial,sans-serif;text-decoration:none}
+.button:hover,.btn:hover{background:#062f57;color:#fff;text-decoration:none}
+.notice{margin-top:24px;background:#fffbe8;border-left:4px solid var(--ugm-yellow);padding:16px 18px;font:13px/1.7 "Avenir Next","Segoe UI",Arial,sans-serif;color:#4d4a3d}
+.sidebar section{padding:18px;border:1px solid var(--line);background:var(--paper);margin-bottom:22px}
+.sidebar h2{font:700 12px/1.2 "Avenir Next","Segoe UI",Arial,sans-serif;letter-spacing:1.4px;text-transform:uppercase;color:var(--ugm-blue);margin:0 0 14px}
+.sidebar a{display:block;padding:10px 0;border-bottom:1px dashed var(--line);color:var(--ugm-blue);text-decoration:none}
+.sidebar a:hover{text-decoration:none;color:#062f57}
+.photo{margin:22px 0 28px;border:1px solid var(--line);background:#fff}
+.photo img{width:100%;height:300px;object-fit:cover}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;padding:12px;background:#fff;border:2px solid var(--ugm-blue);z-index:10}
+.footer{background:var(--ugm-blue);color:#edf5ff;padding:28px 0;font:13px/1.7 "Avenir Next","Segoe UI",Arial,sans-serif}
+.footer .wrap{display:flex;justify-content:space-between;gap:18px}
+.footer a{color:#fff}
+@media (max-width:900px){.layout{grid-template-columns:1fr;gap:28px}.affiliation{display:none}.topics{grid-template-columns:1fr}.footer .wrap{display:block}}
+@media (max-width:600px){.masthead{display:block}.brand{margin-bottom:10px}.brand strong{width:74px;height:42px;font-size:22px}.banner img{height:240px}.photo img{height:220px}.page-title h1{font-size:2.3rem}}
+.design-switcher{position:fixed;right:22px;bottom:22px;z-index:1000;display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border:2px solid #FFD42B;border-radius:999px;background:#0B457F;color:#fff!important;font:700 14px/1.2 'Avenir Next','Segoe UI',Arial,sans-serif;text-decoration:none!important;box-shadow:0 5px 18px rgba(13,40,63,.24);transition:background .18s ease,transform .18s ease}.design-switcher:hover{background:#07335e;color:#fff!important;text-decoration:none!important;transform:translateY(-2px)}.design-switcher:focus-visible{outline:3px solid #0B457F;outline-offset:3px}@media(max-width:600px){.design-switcher{right:14px;bottom:14px;padding:11px 15px;font-size:13px}}

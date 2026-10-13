@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Faculty of Engineering campus illustration</title>
+  <desc id="desc">A stylized academic campus with blue and yellow UGM-inspired colors.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eef4f9"/>
+      <stop offset="100%" stop-color="#dfeaf5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect y="420" width="1200" height="180" fill="#0b457f" opacity="0.18"/>
+  <path d="M0 430 L1200 430 L1200 600 L0 600 Z" fill="#d7e4ef"/>
+  <path d="M0 470 L1200 470" stroke="#0b457f" stroke-width="10" opacity="0.14"/>
+  <rect x="120" y="180" width="230" height="150" rx="8" fill="#0b457f"/>
+  <rect x="150" y="210" width="170" height="95" rx="6" fill="#ffffff" opacity="0.15"/>
+  <rect x="400" y="150" width="300" height="180" rx="10" fill="#ffffff" stroke="#0b457f" stroke-width="8"/>
+  <rect x="460" y="200" width="180" height="85" rx="6" fill="#0b457f" opacity="0.1"/>
+  <rect x="760" y="130" width="260" height="200" rx="10" fill="#0b457f"/>
+  <rect x="790" y="170" width="200" height="140" rx="8" fill="#ffffff" opacity="0.12"/>
+  <polygon points="640,120 705,90 770,120 770,150 640,150" fill="#ffd42b"/>
+  <path d="M615 150 L935 150" stroke="#0b457f" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="216" cy="95" r="38" fill="#ffd42b"/>
+  <path d="M180 110 L240 110" stroke="#0b457f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M216 64 L216 146" stroke="#0b457f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M95 370 Q340 330 430 360 T700 340 T1100 355" fill="none" stroke="#0b457f" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+  <path d="M100 500 L1100 500" stroke="#0b457f" stroke-width="14" stroke-linecap="round" opacity="0.28"/>
+  <text x="120" y="560" font-size="48" font-family="Arial, sans-serif" font-weight="700" fill="#0b457f">Faculty of Engineering, UGM</text>
+</svg>

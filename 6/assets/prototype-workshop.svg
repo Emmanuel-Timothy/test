@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">3D-printing workshop illustration</title>
+  <desc id="desc">A stylized 3D printing workspace with geometric prototypes and a manufacturing table.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf3f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg2)"/>
+  <rect x="70" y="360" width="1060" height="160" rx="16" fill="#0b457f" opacity="0.12"/>
+  <rect x="140" y="250" width="250" height="170" rx="20" fill="#0b457f" opacity="0.12"/>
+  <path d="M180 380 L230 260 L280 380 Z" fill="#ffd42b" opacity="0.9"/>
+  <path d="M235 380 L290 260 L350 380 Z" fill="#0b457f" opacity="0.75"/>
+  <path d="M300 380 L370 210 L420 380 Z" fill="#ffd42b" opacity="0.85"/>
+  <path d="M530 380 L610 210 L730 380 Z" fill="#0b457f" opacity="0.8"/>
+  <path d="M615 380 L690 220 L785 380 Z" fill="#ffd42b" opacity="0.9"/>
+  <path d="M860 380 L930 220 L1040 380 Z" fill="#0b457f" opacity="0.8"/>
+  <path d="M920 380 L995 240 L1080 380 Z" fill="#ffd42b" opacity="0.9"/>
+  <rect x="480" y="150" width="240" height="140" rx="16" fill="#fff" stroke="#0b457f" stroke-width="8"/>
+  <path d="M530 250 L520 205 L620 205 L610 250" fill="none" stroke="#0b457f" stroke-width="8"/>
+  <circle cx="550" cy="175" r="18" fill="#ffd42b"/>
+  <circle cx="630" cy="175" r="18" fill="#0b457f" opacity="0.8"/>
+  <path d="M130 520 H1070" stroke="#0b457f" stroke-width="16" stroke-linecap="round" opacity="0.35"/>
+  <text x="120" y="560" font-size="46" font-family="Arial, sans-serif" font-weight="700" fill="#0b457f">Additive manufacturing research</text>
+</svg>
